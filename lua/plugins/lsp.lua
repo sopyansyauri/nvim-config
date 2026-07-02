@@ -24,20 +24,14 @@ return {
                 settings = {
                     python = {
                         pythonPath = python_path, -- Menghubungkan Pyright ke Python milik venv Anda
-                        -- analysis = {
-                        --     completeFunctionSignatures = true,
-                        --     autoSearchPaths = true,
-                        --     useLibraryCodeForTypes = true,
-                        --     diagnosticMode = "openFilesOnly",
-                        -- },
                     },
                 },
             })
 
             -- 3. Aktifkan Pyright
             vim.lsp.enable("pyright")
-
-
-        end
+        end,
     }
+
 }
+
