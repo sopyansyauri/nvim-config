@@ -1,0 +1,5 @@
+List Aplikasi yang sudah di Install
+-   luarocks
+-   ripgrep
+-   fd-find
+-   clingd
