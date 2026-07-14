@@ -8,6 +8,7 @@ vim.opt.smarttab = true    -- Mengaktifkan fitur pintar di awal baris
 vim.opt.autoindent = true -- Otomatis menyalin indentasi ke baris baru saat Enter
 vim.opt.mouse = "i" -- Mengaktifkan kontrol mouse sepenuhnya di semua mode
 
+
 require("config.lazy")
 
 -- Konfigurasi LSP untuk menghubungkan dengan bahasa pemograman C
